@@ -1,7 +1,9 @@
 Sistema de Contabilidade
+
 Este é um sistema de contabilidade simples que permite aos usuários gerenciar transações financeiras. O sistema oferece funcionalidades básicas de CRUD (Criar, Ler, Atualizar, Excluir) para transações, além de recursos adicionais como ordenação, remoção de duplicatas e geração de relatórios.
 
 Funcionalidades
+
 Ver todas as transações: Exibe todas as transações armazenadas no banco de dados MySQL local.
 Ver transações ordenadas por coluna: Permite ordenar transações com base em colunas como ID, descrição, valor ou data.
 Adicionar nova transação: Adiciona uma nova transação ao banco de dados, incluindo descrição, valor e data.
@@ -14,7 +16,7 @@ Atualizar arquivo TXT: Atualiza um arquivo TXT externo com as transações do ba
 Como Usar
 Requisitos:
 
-Python 3.x
+Python 3.11
 Bibliotecas necessárias: mysql-connector-python
 Configuração do Banco de Dados:
 
