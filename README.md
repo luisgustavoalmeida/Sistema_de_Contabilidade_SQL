@@ -35,3 +35,9 @@ Este é um sistema de contabilidade simples que permite aos usuários gerenciar 
 
 - O sistema suporta a leitura e escrita de transações em um arquivo TXT. Certifique-se de que o arquivo `transacoes.txt` existe e está no mesmo diretório que os scripts Python.
 
+### Arquivo de Requisitos:
+
+- O arquivo `requirements.txt` contém a lista de bibliotecas necessárias para o projeto. Para instalar as bibliotecas, execute o seguinte comando no terminal, estando no diretório do projeto:
+
+```bash
+pip install -r requirements.txt
