@@ -1,6 +1,6 @@
 # ler_arquivo.py
 
-from database import inserir_transacao
+from database import inserir_transacao, transacao_existe
 #import os
 
 # Função para ler transações de um arquivo TXT e inserir no banco de dados
@@ -32,6 +32,7 @@ if __name__ == "__main__":
         descricao = transacao['descricao']
         valor = transacao['valor']
         data = transacao['data']
-        inserir_transacao(descricao, valor, data)
+        #inserir_transacao(descricao, valor, data)
+        transacao_existe(descricao, valor, data)
 
     print("Transações carregadas no banco de dados com sucesso!")
