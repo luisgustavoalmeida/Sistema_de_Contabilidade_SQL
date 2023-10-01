@@ -19,7 +19,8 @@ Este é um sistema de contabilidade simples que permite aos usuários gerenciar 
 ### Requisitos:
 
 - Python 3.11
-- Bibliotecas necessárias: `mysql-connector-python` 'pip install mysql-connector-python'
+- Bibliotecas necessárias: `mysql-connector-python` 
+- Para instalar: `pip install mysql-connector-python`
 
 ### Configuração do Banco de Dados:
 

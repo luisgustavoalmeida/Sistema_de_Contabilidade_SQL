@@ -1,6 +1,6 @@
 # ler_arquivo.py
 
-from database import inserir_transacao, transacao_existe
+from database import transacao_existe
 #import os
 
 # Função para ler transações de um arquivo TXT e inserir no banco de dados
